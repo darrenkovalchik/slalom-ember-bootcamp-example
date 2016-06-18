@@ -1,0 +1,22 @@
+<div class="ui card">
+  <div class="image">
+    <img src="{{model.avatar_url}}">
+  </div>
+  <div class="content">
+    <a class="header">{{model.name}}</a>
+    <div class="meta">
+      <span class="date">{{model.create_at}}</span>
+    </div>
+    <div class="description">
+      {{model.bio}}
+    </div>
+  </div>
+  <div class="extra content">
+    <a>
+      <i class="user icon"></i>
+      {{model.followers}}
+    </a>
+  </div>
+</div>
+
+{{outlet}}
