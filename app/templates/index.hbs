@@ -1,0 +1,12 @@
+<section class="app-container">
+  <header class="app-header">
+    <span class="app-icon">{{fa-icon "github"}}</span>
+    <h1 class="app-title">Github Search</h1>
+  </header>
+  <section class="search">
+    <input class="search-input" type="text"
+           placeholder="Search for Github User or Organization" />
+   <button class="search-btn" {{action 'getOrg'}}>{{fa-icon "search"}}Search</button>
+  </section>
+  {{outlet}}
+</section>

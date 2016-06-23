@@ -1,0 +1,57 @@
+@import 'users.css';
+
+section.app-container {
+  max-width: 960px;
+  margin: auto;
+  font-family: 'Liberation Serif', serif;
+}
+
+header.app-header {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+header span.app-icon {
+  font-size: 2.5rem;
+  display: inline-flex;
+}
+
+header h1.app-title {
+  display: inline-flex;
+  margin: 0 5px;
+}
+
+section.search {
+  display: flex;
+  justify-content: center;
+}
+
+input.search-input {
+  width: 50%;
+  height: 30px;
+  border: 2px solid lightblue;
+  border-radius: 10px 0 0 10px;
+  padding: 5px;
+}
+
+input.search-input:focus,
+button.search-btn:focus {
+  outline: none;
+  box-shadow: 0 0 7px 1px lightblue;
+}
+
+
+button.search-btn {
+  border: none;
+  background-color: lightblue;
+  color: white;
+  font-size: 1.2rem;
+  width: 20%;
+  min-width: 85px;
+  border-radius: 0 10px 10px 0;
+}
+
+button.search-btn i.fa-search {
+  margin-right: 5px;
+}

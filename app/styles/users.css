@@ -1,0 +1,27 @@
+section.users {
+  width: 100%;
+  margin-top: 20px;
+  padding-left: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.users ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+section.users header {
+  display: flex;
+  justify-content: flex-start;
+}
+
+section.users header img {
+  max-width: 65px;
+
+}
+
+section.users header h1 {
+  font-size: 3rem;
+  margin: 10px 10px;
+}
