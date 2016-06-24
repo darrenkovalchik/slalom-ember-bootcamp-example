@@ -18,7 +18,8 @@ section.users header {
 
 section.users header img {
   max-width: 65px;
-
+  padding: 3px;
+  border: 2px solid lightblue;
 }
 
 section.users header h1 {
