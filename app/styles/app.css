@@ -1,4 +1,5 @@
 @import 'users.css';
+@import 'users-search.css';
 
 section.app-container {
   max-width: 960px;
@@ -20,38 +21,4 @@ header span.app-icon {
 header h1.app-title {
   display: inline-flex;
   margin: 0 5px;
-}
-
-section.search {
-  display: flex;
-  justify-content: center;
-}
-
-input.search-input {
-  width: 50%;
-  height: 30px;
-  border: 2px solid lightblue;
-  border-radius: 10px 0 0 10px;
-  padding: 5px;
-}
-
-input.search-input:focus,
-button.search-btn:focus {
-  outline: none;
-  box-shadow: 0 0 7px 1px lightblue;
-}
-
-
-button.search-btn {
-  border: none;
-  background-color: lightblue;
-  color: white;
-  font-size: 1.2rem;
-  width: 20%;
-  min-width: 85px;
-  border-radius: 0 10px 10px 0;
-}
-
-button.search-btn i.fa-search {
-  margin-right: 5px;
 }

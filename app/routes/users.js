@@ -3,7 +3,7 @@ import Ember from 'ember';
 export default Ember.Route.extend({
   ajax: Ember.inject.service(),
 
-  model(params, transition) {
+  model(params) {
     let ajax = this.get('ajax'),
         user = params.user,
         userObj;

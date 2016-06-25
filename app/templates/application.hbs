@@ -1,2 +1,9 @@
-Application route
-{{outlet}}
+<section class="app-container">
+  <header class="app-header">
+      <span class="app-icon">{{fa-icon "github"}}</span>
+      <h1 class="app-title">Github Search</h1>
+    </header>
+  {{users-search
+    search=(route-action 'searchUsers')}}
+  {{outlet}}
+</section>
